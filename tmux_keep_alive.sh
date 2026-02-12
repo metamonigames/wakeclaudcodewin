@@ -1,5 +1,5 @@
 #!/bin/bash
-TARGET_TEXT="You've hit your limit"
+TARGET_TEXT="Stop and wait for limit to"
 
 tmux list-panes -a -F '#{session_name}:#{window_index}.#{pane_index}' | while read -r pane_id; do
     content=$(tmux capture-pane -pt "$pane_id" -S -15)
