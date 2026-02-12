@@ -1,6 +1,8 @@
 🤖 Claude Code Auto-Resume Guide
 - This guide will help you automatically resume Claude Code whenever you see the "You've hit your limit" message. It checks your status every hour and automatically presses Enter to keep your work moving.
 
+![Rate Limit Options](Resources/rate-limit-options.png)
+
 ---
 ### 1. File Setup
 Place all 6 files you received into a single folder of your choice.
